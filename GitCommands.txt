@@ -6,3 +6,9 @@ git add 'nome do arquivo'
 git commit -m 'msgm'
 git log
 git remote add 'origin' 'site'
+.gitignore -> file with file names to ignore
+
+git add file
+git add -A -> all files
+git reset file -> remove file from Stage area
+git log -> see the commits made
