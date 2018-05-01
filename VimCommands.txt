@@ -1,0 +1,41 @@
+
+opens/creates vi with the current file 
+:q - quits vim 
+i - insert mode 
+esc - normal mode 
+:w filename - write to file system with specific file name 
+:w - write file out if vim already knows the file name 
+:wq - writes and quits vim 
+:q! - quits vim when a buffer has edits 
+shift A - goes into insert mode at end of line (didn't mention on video)
+
+Navigation: 
+j - down 
+k - up 
+h - left 
+l - right 
+gg - top of file 
+G - bottom of tile 
+number gg - goes to specific line number 
+
+search/find/replace 
+/searchTerm - searches for current text 
+n - goes to the next location of the searched text 
+?searchTerm - searches backwards for current text 
+* - searches for the current text the cursor is on 
+:%s/findText/replaceText - searches all text and replaces text no confirmation.
+:%s/findText/repalceText/c - searches text and confirms each replace. 
+
+editing mutiple windows: 
+:split filename - splits the window horizontal 
+:vsplit filename - splits the window virtual ctrl-w 
+j - moves to the window down ctrl-w 
+k - moves to the window up 
+ctrl-w h - moves to the window to the left 
+ctrl-w l - moves to the window to the right 
+v - enter visual mode (select text with hjkl) 
+y - yanks text 
+:put - paste text after current line 
+p - paste at current position
+dd- Delete a line
+

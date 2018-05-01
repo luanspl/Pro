@@ -1,0 +1,8 @@
+Git Commands:
+
+git init -> Iniciar um repositório vazio
+git status -> Visualizar o Status do repositório
+git add 'nome do arquivo'
+git commit -m 'msgm'
+git log
+git remote add 'origin' 'site'
